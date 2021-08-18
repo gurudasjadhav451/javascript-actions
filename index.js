@@ -1,6 +1,6 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
-//This is test 
+//This is test action
 try {
   // `who-to-greet` input defined in action metadata file
   const nameToGreet = core.getInput('who-to-greet');
